@@ -82,7 +82,7 @@ nav {
 
 /* Only highlight the exact‑matching link in the navbar */
 nav a.router-link-exact-active {
-  background: yellow !important;
+  background: #BBDEFB !important;
 }
 
 
@@ -110,14 +110,10 @@ a {
 
 /* Ensure full-width form controls touch targets */
 input,
-select {
+select,
+button {
   width: 100%;
   max-width: 100%;
-  box-sizing: border-box;
-}
-
-button {
-  width: auto;
   box-sizing: border-box;
 }
 

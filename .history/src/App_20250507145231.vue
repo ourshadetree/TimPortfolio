@@ -5,7 +5,7 @@
         <router-link
           to="/"
           class="tab tab--home"
-          active-class="router-link-active"
+          exact-active-class="router-link-active"
         >Home</router-link>
 
         <router-link
@@ -40,7 +40,7 @@
 </template>
 
 <script setup>
-// no script needed
+// no script needed here
 </script>
 
 <style scoped>
@@ -70,9 +70,9 @@ nav a {
   font-weight: bold;
 }
 
-/* Highlight only exact-active links */
+/* Highlight active tab using Vue Router class */
 nav a.router-link-active {
-  background: yellow !important;
+  background: #BBDEFB !important;
 }
 
 /* base tab style */
@@ -89,7 +89,7 @@ nav a.router-link-active {
   opacity: 0.8;
 }
 
-/* Pastel for each tab */
+/* pastel colours for each */
 .tab--home     { background: #FFEBEE; }
 .tab--api      { background: #E3F2FD; }
 .tab--widgets  { background: #E8F5E9; }

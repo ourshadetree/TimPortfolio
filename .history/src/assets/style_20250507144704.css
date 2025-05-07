@@ -80,11 +80,11 @@ nav {
 .tab--games    { background: #F3E5F5; } /* very light purple */
 .tab--contact  { background: #FFFDE7; } /* very light yellow */
 
-/* Only highlight the exact‑matching link in the navbar */
-nav a.router-link-exact-active {
+/* Active tab override */
+.router-link-active {
+  /* pastel‑blue highlight for whichever is active */
   background: yellow !important;
 }
-
 
 /* 5) -------- Buttons & Links -------- */
 button {
@@ -110,14 +110,10 @@ a {
 
 /* Ensure full-width form controls touch targets */
 input,
-select {
+select,
+button {
   width: 100%;
   max-width: 100%;
-  box-sizing: border-box;
-}
-
-button {
-  width: auto;
   box-sizing: border-box;
 }
 

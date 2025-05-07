@@ -5,7 +5,7 @@
         <router-link
           to="/"
           class="tab tab--home"
-          active-class="router-link-active"
+          exact-active-class="router-link-active"
         >Home</router-link>
 
         <router-link
@@ -72,7 +72,7 @@ nav a {
 
 /* Highlight only exact-active links */
 nav a.router-link-active {
-  background: yellow !important;
+  background: #BBDEFB !important;
 }
 
 /* base tab style */

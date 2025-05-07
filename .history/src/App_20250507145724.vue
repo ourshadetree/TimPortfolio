@@ -5,7 +5,7 @@
         <router-link
           to="/"
           class="tab tab--home"
-          active-class="router-link-active"
+          exact-active-class="router-link-active"
         >Home</router-link>
 
         <router-link
