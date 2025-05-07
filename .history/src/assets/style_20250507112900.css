@@ -1,0 +1,102 @@
+/* ------------------------------------------------------------------------
+   src/assets/style.css
+   ————————————————————————————————————————————————————————————————
+   1) Reset / base
+   2) Layout (#app, header/nav)
+   3) Typography (h1)
+   4) Tabs (.tab, .tab--*)
+   5) Buttons, links, etc.
+   ------------------------------------------------------------------------ */
+
+/* 1) -------- Reset / Base -------- */
+:root {
+  /* overall color scheme */
+  background-color: #ffffff;
+  color: #0C2442; /* dark blue text */
+  font-family: Karla, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2) --------#app & header/nav layout -------- */
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: white;
+  min-height: 100vh;
+}
+
+header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+nav {
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+/* 3) -------- Typography -------- */
+#app h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin: 1rem 0;
+}
+
+/* 4) -------- Tabs -------- */
+.tab {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0C2442;
+  transition: opacity 0.2s;
+}
+.tab:hover {
+  opacity: 0.8;
+}
+
+/* Pastel for each */
+.tab--home     { background: #FFEBEE; } /* very light pink */
+.tab--api      { background: #E3F2FD; } /* very light blue */
+.tab--widgets  { background: #E8F5E9; } /* very light green */
+.tab--games    { background: #F3E5F5; } /* very light purple */
+.tab--contact  { background: #FFFDE7; } /* very light yellow */
+
+/* Active tab override */
+.router-link-active {
+  /* pastel‑blue highlight for whichever is active */
+  background: #BBDEFB !important;
+}
+
+/* 5) -------- Buttons & Links -------- */
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6rem 1.2rem;
+  font: inherit;
+  background: #f0f0f0;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #e0e0e0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
