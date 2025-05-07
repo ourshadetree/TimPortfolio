@@ -1,6 +1,6 @@
 {
-  "name": "tim-portfolio",
-  "homepage": "https://ourshadetree.github.io/TimPortfolio",
+  "name": "timportfolio",
+  "homepage": "https://ourshadetree.github.io/timportfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
