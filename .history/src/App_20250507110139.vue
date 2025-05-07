@@ -21,7 +21,7 @@
 // no script needed here yet
 </script>
 
-<style>
+<style scoped>
 #app {
   background: white;
   min-height: 100vh;
@@ -47,28 +47,6 @@ nav a {
   font-weight: bold;
 }
 nav a.router-link-active {
-  background: yellow; /* pastel blue when active */
+  background: #D0F0FD; /* pastel blue when active */
 }
-
-/* base tab style */
-.tab {
-  padding: 0.6rem 1.2rem;
-  border: 1px solid #000;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #0C2442;
-  transition: opacity .2s;
-}
-.tab:hover {
-  opacity: 0.8;
-}
-
-/* pastel colours for each */
-.tab--home     { background: #FFEBEE; } /* very light pink */
-.tab--api      { background: #E3F2FD; } /* very light blue */
-.tab--widgets  { background: #E8F5E9; } /* very light green */
-.tab--games    { background: #F3E5F5; } /* very light purple */
-.tab--contact  { background: #FFFDE7; } /* very light yellow */
-
 </style>

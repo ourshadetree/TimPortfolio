@@ -27,6 +27,14 @@
   min-height: 100vh;
 }
 
+h1 {
+  font-family: 'Sora', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin: 1rem 0;
+  /* etc… */
+}
+
 /* header/nav styling */
 header {
   padding: 1rem;

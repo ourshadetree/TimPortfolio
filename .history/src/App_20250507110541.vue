@@ -21,7 +21,7 @@
 // no script needed here yet
 </script>
 
-<style>
+<style scoped>
 #app {
   background: white;
   min-height: 100vh;

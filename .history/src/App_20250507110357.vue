@@ -21,7 +21,7 @@
 // no script needed here yet
 </script>
 
-<style>
+<style scoped>
 #app {
   background: white;
   min-height: 100vh;
@@ -47,7 +47,7 @@ nav a {
   font-weight: bold;
 }
 nav a.router-link-active {
-  background: yellow; /* pastel blue when active */
+  background: #D0F0FD; /* pastel blue when active */
 }
 
 /* base tab style */
